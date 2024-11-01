@@ -67,8 +67,13 @@
             border-radius: 10px 10px 0 0;
         }
 
+        /* Ensuring content visibility */
         .ad-content {
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
         }
 
         .ad-title {
@@ -91,6 +96,7 @@
             background-color: #333;
             color: #fff;
             border-radius: 5px;
+            text-align: center;
             transition: background-color 0.3s ease;
         }
 
@@ -101,7 +107,7 @@
 </head>
 <body>
     <div class="unique-wrapper">
-        <h1>Experimental Ad Page</h1>
+        <h1>Featured Fashion Ads</h1>
         <div class="ad-card-grid">
             <!-- Ad Card 1 -->
             <div class="ad-card-item">
